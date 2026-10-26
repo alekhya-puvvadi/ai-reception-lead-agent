@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Local data. Calls can contain personal details, so the database is never committed.
+data/*.db
+data/*.sqlite
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

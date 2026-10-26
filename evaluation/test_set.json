@@ -1,0 +1,252 @@
+[
+  {
+    "id": "c01",
+    "category": "clear",
+    "transcript": "Hi, my name is Rahul Sharma. I want to join the AI course. Please call me today after 6 PM on 9876501234.",
+    "expected_intent": "admission",
+    "expected_urgency": "High",
+    "expected_name": "Rahul Sharma",
+    "expected_phone": "9876501234",
+    "note": ""
+  },
+  {
+    "id": "c02",
+    "category": "clear",
+    "transcript": "Hello, I wanted to know the fees for the Cybersecurity course. Can you tell me?",
+    "expected_intent": "fee_inquiry",
+    "expected_urgency": "Low",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": ""
+  },
+  {
+    "id": "c03",
+    "category": "clear",
+    "transcript": "Hi, this is Priya. I'm interested in the Python course. Could someone call me back sometime this week? My number is 9845012345.",
+    "expected_intent": "admission",
+    "expected_urgency": "Medium",
+    "expected_name": "Priya",
+    "expected_phone": "9845012345",
+    "note": ""
+  },
+  {
+    "id": "c04",
+    "category": "clear",
+    "transcript": "I want to complain. The trainer has not come to class for the last three days and our exam is next week. Please fix this urgently.",
+    "expected_intent": "complaint",
+    "expected_urgency": "High",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": ""
+  },
+  {
+    "id": "c05",
+    "category": "clear",
+    "transcript": "Do you provide placement support after the Java full stack course? Which companies do you work with?",
+    "expected_intent": "placement_inquiry",
+    "expected_urgency": "Low",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": ""
+  },
+  {
+    "id": "c06",
+    "category": "clear",
+    "transcript": "I come from a low income family. Is there any government scheme or scholarship for IT training? Please call me back and explain.",
+    "expected_intent": "scheme_eligibility",
+    "expected_urgency": "Medium",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": ""
+  },
+  {
+    "id": "c07",
+    "category": "clear",
+    "transcript": "Hi, I just want to check what courses you offer. I'm only browsing for now.",
+    "expected_intent": "general_query",
+    "expected_urgency": "Low",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": ""
+  },
+  {
+    "id": "c08",
+    "category": "clear",
+    "transcript": "Hello, I'm Anita Rao. I want to enrol in the Data Science course immediately. The batch starts Monday, right? Call me urgently at 9900112233.",
+    "expected_intent": "admission",
+    "expected_urgency": "High",
+    "expected_name": "Anita Rao",
+    "expected_phone": "9900112233",
+    "note": ""
+  },
+  {
+    "id": "c09",
+    "category": "ambiguous",
+    "transcript": "Hi, I called yesterday about the course but nobody told me anything.",
+    "expected_intent": "complaint",
+    "expected_urgency": "Medium",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": "Unhappy about no response; could be read as a follow-up enquiry."
+  },
+  {
+    "id": "c10",
+    "category": "ambiguous",
+    "transcript": "Tell me about the cloud course.",
+    "expected_intent": "general_query",
+    "expected_urgency": "Low",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": "No stated intent to join."
+  },
+  {
+    "id": "c11",
+    "category": "ambiguous",
+    "transcript": "Is the AI course good for someone with no background?",
+    "expected_intent": "general_query",
+    "expected_urgency": "Low",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": ""
+  },
+  {
+    "id": "c12",
+    "category": "ambiguous",
+    "transcript": "I'm thinking of joining but not sure yet, maybe next month. Can you send some details?",
+    "expected_intent": "admission",
+    "expected_urgency": "Low",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": "Tentative intent to join counts as admission; no deadline so Low."
+  },
+  {
+    "id": "c13",
+    "category": "ambiguous",
+    "transcript": "My friend studied here and said it's good. How does it work?",
+    "expected_intent": "general_query",
+    "expected_urgency": "Low",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": ""
+  },
+  {
+    "id": "c14",
+    "category": "ambiguous",
+    "transcript": "Hello? Can you hear me? Is this the training centre? I wanted to ask about something.",
+    "expected_intent": "other",
+    "expected_urgency": "Low",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": "No actual content."
+  },
+  {
+    "id": "c15",
+    "category": "multi_intent",
+    "transcript": "Hi, I'm Karthik. How much is the CCNA fee and do you guarantee a job after? If it's okay I'd like to join this month. Call me on 9123456780.",
+    "expected_intent": "admission",
+    "expected_urgency": "Medium",
+    "expected_name": "Karthik",
+    "expected_phone": "9123456780",
+    "note": "Fee and placement questions, but the caller asks to join."
+  },
+  {
+    "id": "c16",
+    "category": "multi_intent",
+    "transcript": "I paid the fee last week but I still haven't got the receipt, and also can you tell me the batch timings?",
+    "expected_intent": "complaint",
+    "expected_urgency": "Medium",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": "Problem stated first; batch timing is secondary."
+  },
+  {
+    "id": "c17",
+    "category": "multi_intent",
+    "transcript": "Are there scholarships for women in the cybersecurity course? And what would the fee be after the scholarship?",
+    "expected_intent": "scheme_eligibility",
+    "expected_urgency": "Low",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": ""
+  },
+  {
+    "id": "c18",
+    "category": "noisy",
+    "transcript": "hi uh my name is sunil I I want to join the python class ah call me nine eight seven six five four three two one zero",
+    "expected_intent": "admission",
+    "expected_urgency": "Medium",
+    "expected_name": "Sunil",
+    "expected_phone": "9876543210",
+    "note": "Phone number spoken as words."
+  },
+  {
+    "id": "c19",
+    "category": "noisy",
+    "transcript": "the the trainer not coming class three days no one is answer",
+    "expected_intent": "complaint",
+    "expected_urgency": "High",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": "Broken grammar."
+  },
+  {
+    "id": "c20",
+    "category": "noisy",
+    "transcript": "fees for java course how much [inaudible] java",
+    "expected_intent": "fee_inquiry",
+    "expected_urgency": "Low",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": ""
+  },
+  {
+    "id": "c21",
+    "category": "noisy",
+    "transcript": "hello my nam is meena i wan to know abot placment for data science cors plz cal back this week",
+    "expected_intent": "placement_inquiry",
+    "expected_urgency": "Medium",
+    "expected_name": "Meena",
+    "expected_phone": null,
+    "note": ""
+  },
+  {
+    "id": "c22",
+    "category": "accented",
+    "transcript": "Sir namaskara, nanu Ramesh. Python course fees yeshtu sir? Nange tumba urgent, nale joining madbeku.",
+    "expected_intent": "admission",
+    "expected_urgency": "High",
+    "expected_name": "Ramesh",
+    "expected_phone": null,
+    "note": "Kannada and English. Wants to join tomorrow."
+  },
+  {
+    "id": "c23",
+    "category": "accented",
+    "transcript": "Hello madam, mujhe cybersecurity course ke baare mein jaanna hai. Fees kitni hai aur placement hota hai kya?",
+    "expected_intent": "fee_inquiry",
+    "expected_urgency": "Low",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": "Hindi and English. Fee question comes first."
+  },
+  {
+    "id": "c24",
+    "category": "accented",
+    "transcript": "Hi sir, trainer daily late aa raha hai, classes cancel ho rahe hain. Please do something, this is very bad.",
+    "expected_intent": "complaint",
+    "expected_urgency": "High",
+    "expected_name": null,
+    "expected_phone": null,
+    "note": "Hindi and English. Ongoing problem."
+  },
+  {
+    "id": "c25",
+    "category": "accented",
+    "transcript": "Madam, naan Divya pesuren. Python course join panna aasai. Number 9876012345 la call pannunga.",
+    "expected_intent": "admission",
+    "expected_urgency": "Medium",
+    "expected_name": "Divya",
+    "expected_phone": "9876012345",
+    "note": "Tamil and English."
+  }
+]
